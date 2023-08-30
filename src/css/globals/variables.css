@@ -1,0 +1,11 @@
+/* Global variables */
+:root {
+  --gutter: var(--space-s-m);
+  --border-radius: var(--size-step-1);
+  --ff-heading: var(--font-base);
+  --ff-body: var(--font-base);
+  --color-dark: var(--color-neutral-900);
+  --color-light: var(--color-neutral-100);
+  /*1110px 👇*/
+  --wrapper-max-width: 69.375rem;
+}

@@ -1,0 +1,13 @@
+/* 
+FLOW UTILITY
+Info: https://piccalil.li/quick-tip/flow-utility/ 
+*/
+.flow > * + * {
+  margin-top: var(--flow-space, 1em);
+}
+
+.flow[data-split] {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Colors",
+  "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print.",
+  "items": [
+    {
+      "name": "Neutral 100",
+      "value": "#FAFAFA"
+    },
+    {
+      "name": "Neutral 200",
+      "value": "#FFEFEB"
+    },
+    {
+      "name": "Neutral 400",
+      "value": "#9095A7"
+    },
+    {
+      "name": "Neutral 900",
+      "value": "#1D1E25"
+    },
+    {
+      "name": "Primary 300",
+      "value": "#9298aa"
+    },
+    {
+      "name": "Primary 400",
+      "value": "#242D52"
+    },
+    {
+      "name": "Accent 300",
+      "value": "#F99177"
+    },
+    {
+      "name": "Accent 400",
+      "value": "#F25F3A"
+    }
+  ]
+}

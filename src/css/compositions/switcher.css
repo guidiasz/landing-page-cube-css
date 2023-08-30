@@ -1,0 +1,42 @@
+/*
+SWITCHER
+
+A layout that allows you to lay **2** items next to each other
+until there is not enough horizontal space to allow that.
+
+CUSTOM PROPERTIES AND CONFIGURATION
+--gutter (var(--space-size-1)): This defines the space
+between each item
+
+--switcher-target-container-width (65ch): How large the container
+needs to be to allow items to sit inline with each other
+
+--switcher-vertical-alignment How items should align vertically.
+Can be any acceptable flexbox alignment value.
+*/
+.switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter, var(--space-s-m));
+  align-items: var(--switcher-vertical-alignment, flex-start);
+}
+
+.switcher > * {
+  flex-grow: 1;
+  flex-basis: calc((var(--switcher-target-container-width, var(--measure-short)) - 100%) * 999);
+}
+
+/* Max 2 items,
+so we target everything *after* those */
+.switcher > :nth-last-child(n + 5),
+.switcher > :nth-last-child(n + 5) ~ * {
+  flex-basis: 100%;
+}
+
+.switcher[data-align='center'] {
+  --switcher-vertical-alignment: center;
+}
+
+.switcher[data-align='stretch'] {
+  --switcher-vertical-alignment: stretch;
+}

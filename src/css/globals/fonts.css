@@ -1,0 +1,10 @@
+/*
+fonts
+example ↓ 
+@font-face {
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 400;
+ src: url('/fonts/inter-v8-latin-regular.woff2') format('woff2');
+} 
+*/

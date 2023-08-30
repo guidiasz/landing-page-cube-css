@@ -1,0 +1,47 @@
+/* 
+  Global styles 
+
+  Low-specificity, global styles that apply to the whole 
+  project: https://cube.fyi/css.html
+*/
+body {
+  color: var(--color-neutral-400);
+  background: var(--color-light);
+  font-size: var(--size-step-0);
+  font-family: var(--ff-body);
+  line-height: var(--leading-normal);
+}
+
+/* Base typesetting */
+h1,
+h2,
+h3 {
+  line-height: var(--leading-tight);
+}
+
+svg {
+  height: 2ex;
+  width: auto;
+  flex: none;
+}
+
+/* Base interactive elements */
+a,
+button {
+  cursor: pointer;
+  display: inline-block;
+}
+
+:focus {
+  outline: 2px solid;
+  outline-offset: var(--focus-offset, 0.3ch);
+  outline-color: var(--focus-color, var(--color-accent-400));
+}
+
+:target {
+  scroll-margin-top: 2ex;
+}
+
+main:focus {
+  outline: none;
+}
