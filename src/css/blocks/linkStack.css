@@ -1,0 +1,7 @@
+.linkStack a {
+  padding-bottom: var(--space-s);
+  font-weight: var(--weight-medium);
+}
+.linkStack a:hover {
+  color: var(--color-neutral-400);
+}

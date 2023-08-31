@@ -1,0 +1,19 @@
+.card {
+  --flow-space: var(--space-xs);
+  --photo-size: 4.5rem;
+  margin-top: calc(var(--photo-size) / 2);
+  width: 80vw;
+  max-width: 540px;
+  padding: var(--space-s-l);
+  background-color: var(--color-neutral-200);
+  border-radius: var(--border-radius);
+  position: relative;
+}
+
+.card img {
+  max-width: var(--photo-size);
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+}

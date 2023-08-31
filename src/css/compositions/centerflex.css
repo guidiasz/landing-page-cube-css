@@ -1,0 +1,21 @@
+/* 
+CENTERFLEX
+https://9elements.com/blog/the-devil-s-albatross/ 
+*/
+
+.centerflex {
+  --centerflex-threshold: var(--wrapper-max-width, 80rem);
+  --multiplier: calc((var(--centerflex-threshold) - 100%) * 9999);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gutter, var(--space-s));
+}
+
+.divider {
+  content: '';
+  flex-grow: 999;
+  margin: 0;
+  flex-basis: var(--multiplier);
+}

@@ -1,0 +1,7 @@
+.footer {
+  --gutter: var(--space-m-l);
+  --switcher-target-container-width: 60rem;
+}
+.footer .logo {
+  max-width: 9rem;
+}

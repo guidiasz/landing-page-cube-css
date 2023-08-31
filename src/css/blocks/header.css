@@ -1,0 +1,11 @@
+.header {
+  --region-space: var(--space-m-l);
+}
+
+.header__nav a {
+  font-weight: var(--weight-medium);
+}
+
+.header__nav .cluster {
+  --cluster-horizontal-alignment: center;
+}

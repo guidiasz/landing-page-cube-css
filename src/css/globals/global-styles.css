@@ -30,6 +30,13 @@ a,
 button {
   cursor: pointer;
   display: inline-block;
+  transition: 0.3s;
+  line-height: var(--leading-tight);
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--color-neutral-900);
 }
 
 :focus {

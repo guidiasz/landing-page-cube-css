@@ -5,7 +5,7 @@ A layout that allows you to lay **2** items next to each other
 until there is not enough horizontal space to allow that.
 
 CUSTOM PROPERTIES AND CONFIGURATION
---gutter (var(--space-size-1)): This defines the space
+--gutter (var(--space-size-l)): This defines the space
 between each item
 
 --switcher-target-container-width (65ch): How large the container
@@ -23,10 +23,10 @@ Can be any acceptable flexbox alignment value.
 
 .switcher > * {
   flex-grow: 1;
-  flex-basis: calc((var(--switcher-target-container-width, var(--measure-short)) - 100%) * 999);
+  flex-basis: calc((var(--switcher-target-container-width, var(--measure-short)) - 100%) * 9999);
 }
 
-/* Max 2 items,
+/* Max 4 items,
 so we target everything *after* those */
 .switcher > :nth-last-child(n + 5),
 .switcher > :nth-last-child(n + 5) ~ * {

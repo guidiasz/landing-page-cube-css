@@ -1,0 +1,28 @@
+/* 
+https://web.dev/design-system/css-compositions/#reel 
+REEL
+
+--gutter (--space-size-l): This defines the space
+between each item.
+
+--reel-height (auto): The height of the Reel itself
+
+--item-width (auto): The width of each item in the Reel
+*/
+
+.reel {
+  display: flex;
+  height: var(--reel-height, auto);
+  max-width: 100%;
+  margin-inline: auto;
+  padding: 0.5rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  gap: var(--gutter, var(--space-size-l));
+  /* scrollbar padding 👇 */
+  padding-block-end: var(--space-l);
+}
+.reel > * {
+  flex: 0 0 var(--item-width, auto);
+}

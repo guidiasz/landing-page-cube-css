@@ -1,0 +1,23 @@
+.testimonials .reel {
+  position: relative;
+}
+
+.testimonials .reel::after {
+  content: '→';
+  position: absolute;
+  top: -5px;
+  right: 30px;
+  color: rgba(0, 0, 0, 0.3);
+  animation: seta 0.5s ease-in 0s infinite alternate;
+  font-weight: var(--fw-bold);
+  font-size: 2rem;
+}
+
+@keyframes seta {
+  0% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}

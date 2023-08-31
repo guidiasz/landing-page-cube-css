@@ -3,7 +3,6 @@
   border-radius: 100vw;
   font-weight: var(--weight-bold);
   padding: var(--space-xs) var(--space-l);
-  transition: 0.3s;
   text-align: center;
   font-size: var(--fs-300);
   --focus-offset: 0;

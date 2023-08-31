@@ -15,144 +15,142 @@
 </head>
 
 <body>
-  <header class="wrapper region">
-    <div class="cluster">
-      <a href="#"><img class="block" src="./src/imgs/logo.svg" alt="Manage"></a>
-      <nav class="header__nav">
-        <ul class="cluster" role="list" aria-label="Primary">
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Community</a></li>
-        </ul>
-      </nav>
+  <header class="header | centerflex wrapper region">
+    <a href="#"><img class="block" src="./src/imgs/logo.svg" alt="Manage"></a>
+    <div class="divider"></div>
+    <nav class="header__nav">
+      <ul class="cluster" role="list" aria-label="Primary">
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Community</a></li>
+      </ul>
+    </nav>
+    <div class="divider"></div>
+    <div>
       <a href="#" class="button" data-type="accent">Get Started</a>
     </div>
   </header>
   <main>
-    <section class="hero region">
-      <div class="wrapper switcher" data-align="center">
-        <div class="flow">
-          <h1 class="font-bold text-step-5 text-primary-400">Bring everyone together to build better products.</h1>
-          <p class="">Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
-          <a href="#" class="button flow-space-l" data-type="accent">Get Started</a>
+    <section class="hero | region">
+      <div class="switcher wrapper | gutter-l-xl">
+        <div class="flow | flow-space-m text-center md:text-left">
+          <h1 class="measure-title | font-bold text-step-5 text-primary-400">Bring everyone together to build better products.</h1>
+          <p class="measure-compact">Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
+          <a href="#" class="button | flow-space-xl" data-type="accent">Get Started</a>
         </div>
-        <div class="illustration">
+        <div class="illustration | text-center">
           <img src="./src/imgs/illustration-intro.svg" alt="">
         </div>
       </div>
     </section>
-    <section class="about region">
-      <div class="wrapper switcher">
-        <div class="flow">
-          <h2 class="font-bold text-step-4 text-primary-400">What’s different about Manage?</h2>
-          <p>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.</p>
+    <section class="about | region">
+      <div class="wrapper | gutter-l-xl ">
+        <div class="switcher gap-y-xl">
+          <div class="flow | text-center md:text-left">
+            <h2 class="measure-title | font-bold text-step-4 text-primary-400 ">What’s different about Manage?</h2>
+            <p class="measure-compact">Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.</p>
+          </div>
+          <ul class="numberedList | flow flow-space-xl" role="list">
+            <li class="numberedList__item | flow">
+              <h3 class="numberedList__title">Track company-wide progress</h3>
+              <p class="numberedList__body">
+                See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.
+              </p>
+            </li>
+            <li class="numberedList__item | flow">
+              <h3 class="numberedList__title">Advanced built-in reports</h3>
+              <p class="numberedList__body">
+                Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.
+              </p>
+            </li>
+            <li class="numberedList__item | flow">
+
+              <h3 class="numberedList__title">Everything you need in one place</h3>
+              <p class="numberedList__body">
+                Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.
+              </p>
+
+            </li>
+          </ul>
         </div>
-        <ul role="list" class="flow">
-          <li>
-            <p class="text-primary-400 font-bold">Track company-wide progress</p>
-            <p class="">
-              See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.
-            </p>
-          </li>
-          <li>
-            <p class="text-primary-400 font-bold">Advanced built-in reports</p>
-            <p class="">
-              Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.
-            </p>
-          </li>
-          <li>
-            <p class="text-primary-400 font-bold">Everything you need in one place</p>
-            <p class="">
-              Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.
-            </p>
-          </li>
-        </ul>
       </div>
     </section>
-    <section class="testimonials wrapper region text-center">
-      <div class="flow">
+    <section class="testimonials | region wrapper | text-center">
+      <div class="flow | flow-space-xl">
         <h2 class="font-bold text-step-4 text-primary-400">What they've said</h2>
-        <div>
-          <div class="card flow">
+        <div class="reel">
+          <div class="card | flow">
             <img src="./src/imgs/avatar-anisha.png" alt="">
-            <p class="text-primary-400 font-bold">Anisha Li</p>
+            <p class="mt-l text-primary-400 font-bold">Anisha Li</p>
             <p>“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</p>
           </div>
-          <div class="card flow">
+          <div class="card | flow">
             <img src="./src/imgs/avatar-ali.png" alt="">
-            <p class="text-primary-400 font-bold">Ali Bravo</p>
+            <p class="text-primary-400 font-bold mt-l">Ali Bravo</p>
             <p>“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”</p>
           </div>
-          <div class="card flow">
+          <div class="card | flow">
             <img src="./src/imgs/avatar-richard.png" alt="">
-            <p class="text-primary-400 font-bold">Richard Watts</p>
+            <p class="text-primary-400 font-bold mt-l">Richard Watts</p>
             <p>“Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!”</p>
           </div>
-          <div class="card flow">
+          <div class="card | flow">
             <img src="./src/imgs/avatar-shanai.png" alt="">
-            <p class="text-primary-400 font-bold">Shanai Gough</p>
+            <p class="text-primary-400 font-bold mt-l">Shanai Gough</p>
             <p>“Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
           </div>
         </div>
         <a href="#" class="button" data-type="accent">Get Started</a>
       </div>
     </section>
-    <section class="cta region bg-accent-400 text-neutral-100">
-      <div class=" wrapper">
-        <div class="switcher" data-align="center">
-          <div>
-            <h2 class="font-bold text-step-4 ">Simplify how your team works today.</h2>
-          </div>
-          <div class="text-right">
-            <a href="#" class="button" data-type="neutral">Get Started</a>
-          </div>
-        </div>
+    <section class="cta | region | bg-accent-400 text-neutral-100">
+      <div class="wrapper | flow flow-space-xl text-center">
+        <h2 class="measure-title | mx-auto font-bold text-step-4 ">Simplify how your team works today.</h2>
+        <a href="#" class="button" data-type="neutral">Get Started</a>
       </div>
     </section>
   </main>
-  <footer class="region bg-neutral-900 text-neutral-100">
-    <div class="wrapper">
-      <div class="switcher" data-align="stretch">
-        <div class="flow" data-split>
-          <img src="./src/imgs/logo-white.svg" alt="">
-          <ul role="list" class="cluster mt-auto">
-            <li>
-              <a href="#"><img src="./src/imgs/icon-facebook.svg" alt=""></a>
-            </li>
-            <li>
-              <a href="#"><img src="./src/imgs/icon-youtube.svg" alt=""></a>
-            </li>
-            <li>
-              <a href="#"><img src="./src/imgs/icon-twitter.svg" alt=""></a>
-            </li>
-            <li>
-              <a href="#"><img src="./src/imgs/icon-pinterest.svg" alt=""></a>
-            </li>
-            <li>
-              <a href="#"><img src="./src/imgs/icon-instagram.svg" alt=""></a>
-            </li>
-          </ul>
-        </div>
-        <ul role="list">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">About Us</a></li>
+  <footer class="footer | region bg-neutral-900 text-neutral-100">
+    <div class="switcher | wrapper" data-align="stretch">
+      <div class="flow" data-split>
+        <img class="logo mb-auto" src="./src/imgs/logo-white.svg" alt="">
+        <ul role="list" class="socialLinks | cluster">
+          <li>
+            <a href="#"><img src="./src/imgs/icon-facebook.svg" alt=""></a>
+          </li>
+          <li>
+            <a href="#"><img src="./src/imgs/icon-youtube.svg" alt=""></a>
+          </li>
+          <li>
+            <a href="#"><img src="./src/imgs/icon-twitter.svg" alt=""></a>
+          </li>
+          <li>
+            <a href="#"><img src="./src/imgs/icon-pinterest.svg" alt=""></a>
+          </li>
+          <li>
+            <a href="#"><img src="./src/imgs/icon-instagram.svg" alt=""></a>
+          </li>
         </ul>
-        <ul role="list">
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Community</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-        </ul>
-        <div class="flow" data-split>
-          <div class="sidebar">
-            <input class="text-step-00" type="email" placeholder="Updates in your inbox…">
-            <button class="button" data-type="accent">Go</button>
-          </div>
-          <p class="text-step-00 text-center mt-auto">Copyright 2020. All Rights Reserved</p>
-        </div>
+      </div>
+      <ul class="linkStack" role="list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+      <ul class="linkStack" role="list">
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+      <div class="flow " data-split>
+        <form class="newsletter | sidebar | mb-auto" data-direction='rtl'>
+          <input class="text-step-00" type="email" placeholder="Updates in your inbox…">
+          <button class="button" data-type="accent">Go</button>
+        </form>
+        <p class="text-step-00 text-left text-neutral-400 md:text-center">Copyright 2020. All Rights Reserved</p>
       </div>
     </div>
   </footer>

@@ -1,0 +1,6 @@
+.socialLinks {
+  --gutter: var(--space-xs);
+}
+.socialLinks a:hover {
+  filter: invert(0.3);
+}

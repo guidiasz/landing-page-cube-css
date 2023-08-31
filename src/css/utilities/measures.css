@@ -1,0 +1,17 @@
+.measure-compact {
+  max-width: var(--measure-compact);
+  margin-inline: auto;
+}
+.measure-title {
+  max-width: var(--measure-title);
+  margin-inline: auto;
+}
+
+@media (min-width: 53.4375em) {
+  .measure-compact {
+    margin-inline: 0;
+  }
+  .measure-title {
+    margin-inline: 0;
+  }
+}

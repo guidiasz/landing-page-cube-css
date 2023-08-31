@@ -1,0 +1,26 @@
+.newsletter {
+  --gutter: var(--space-xs);
+  --sidebar-content-min-width: 60%;
+}
+
+.newsletter input {
+  background-color: var(--color-neutral-100);
+  border-radius: 100vw;
+  padding: var(--space-s);
+  color: var(--color-neutral-400);
+  border: 2px solid var(--input-border-color, transparent);
+  outline: none;
+  /*👇 https://stackoverflow.com/questions/42421361/input-button-elements-not-shrinking-in-a-flex-container  */
+  min-width: 0;
+  width: 100%;
+}
+
+.newsletter input:hover,
+.newsletter input:focus,
+.newsletter input:active {
+  border-color: var(--input-hover-border-color, var(--color-accent-400));
+}
+
+.newsletter button {
+  --focus-color: var(--color-neutral-100);
+}

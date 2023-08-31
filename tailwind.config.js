@@ -33,10 +33,11 @@ const measure = {
   long: '75ch',
   short: '65ch',
   compact: '35ch',
+  title: '20ch',
 };
 
 const screens = {
-  md: '50em',
+  md: '53.4375em',
   lg: '80em',
 };
 
@@ -122,6 +123,8 @@ module.exports = {
       const currentConfig = config();
       const customUtilities = [
         { key: 'spacing', prefix: 'flow-space', property: '--flow-space' },
+        { key: 'spacing', prefix: 'gutter', property: '--gutter' },
+        { key: 'spacing', prefix: 'gap-y', property: 'row-gap' },
         // { key: 'colors', prefix: 'spot-color', property: '--spot-color' },
       ];
 
