@@ -3,7 +3,7 @@
     <p align="center">Landing Page com CUBE CSS</p>
 </h1>
 <p align="center">
-    <i align="center">Responsivo de forma simples e organizada🧊</i>
+    <i align="center">Responsivo, simples e organizado🧊</i>
 </p>
 <p align="center">
     <img src=".github/responsivo.jpg" alt="">
@@ -189,7 +189,7 @@ Considere dar uma estrela ⭐.
 
 ## 📚Materiais de estudo
 
-- **[Designing Intrinsic Layouts⤴](https://youtu.be/AMPKmh98XLY):** além de explodir minha cabeça, esse vídeo me ajudou a reavaliar a ideia de pixel perfect;
+- **[Everything You Know About Web Design Just Changed⤴](https://youtu.be/jBwBACbRuGY):** além de explodir minha cabeça, esse vídeo me ajudou a reavaliar a ideia de pixel perfect;
 - **[Cube CSS⤴](https://cube.fyi/):** Metodologia que separa os estilos em globais, composição, utilidades, blocos e exceções;
 - **[Web Dev Design System⤴](https://web.dev/design-system/):** por ser feito com CUBE CSS, me ajudou a entender melhor a metodologia;
 - **[Como usar o tailwind para gerar classes utilitárias⤴](https://andy-bell.co.uk/i-used-tailwind-for-the-u-in-cube-css-and-i-liked-it/)**
