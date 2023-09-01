@@ -54,7 +54,7 @@ Para gerar o css, uso o comando `npm run postcss:watch`. Para live reload desse 
 
 <p>Esse humilde repositório tenta responder as duas últimas questões.</p>
 
-## 🏗️ Estrutura do Projeto
+## 🏗Estrutura do Projeto
 ```
 src
 └── css
