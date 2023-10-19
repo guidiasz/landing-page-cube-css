@@ -146,7 +146,7 @@ Isso permite definir valores mínimos e máximos e, assim, o browser calcula o v
 https://github.com/guidiasz/landing-page-cube-css/assets/38039567/e179e964-b3e3-4c24-b45f-cc838baf457c
 
 ## 📐Classes para Layout
-Me aproveitei dos [componentes de layout do web.dev](https://web.dev/design-system/css-compositions/) para fazer a composição do projeto. Por extrairem o máximo do Flexbox, os componentes se adaptam ao tamanho da tela sem a necessidade de media queries.
+Me aproveitei dos [componentes de layout do web.dev](https://web.archive.org/web/20230411132346/https://web.dev/design-system/css-compositions/) para fazer a composição do projeto. Por extrairem o máximo do Flexbox, os componentes se adaptam ao tamanho da tela sem a necessidade de media queries.
 
 Em todo o projeto, usei media queries apenas nos ajustes finais, resultando em poucas linhas:
 ```css
@@ -191,7 +191,7 @@ Considere dar uma estrela ⭐.
 
 - **[Everything You Know About Web Design Just Changed⤴](https://youtu.be/jBwBACbRuGY):** além de explodir minha cabeça, esse vídeo me ajudou a reavaliar a ideia de pixel perfect;
 - **[Cube CSS⤴](https://cube.fyi/):** Metodologia que separa os estilos em globais, composição, utilidades, blocos e exceções;
-- **[Web Dev Design System⤴](https://web.dev/design-system/):** por ser feito com CUBE CSS, me ajudou a entender melhor a metodologia;
+- **[Web Dev Design System⤴](https://web.archive.org/web/20230411132314/https://web.dev/design-system/):** por ser feito com CUBE CSS, me ajudou a entender melhor a metodologia;
 - **[Como usar o tailwind para gerar classes utilitárias⤴](https://andy-bell.co.uk/i-used-tailwind-for-the-u-in-cube-css-and-i-liked-it/)**
 
 ## ⚠ Importante
